@@ -6,11 +6,11 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.0');
+  api.versionsFrom('2.3');
   api.use([
     'mongo',
     'underscore',
-    'lai:collection-extensions@0.2.1_1']);
+    'lai:collection-extensions']);
   api.addFiles('mongo-instances.js');
 });
 
